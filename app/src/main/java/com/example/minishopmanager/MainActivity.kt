@@ -21,6 +21,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val btnCatalog = findViewById<Button>(R.id.btnCatalog)
+        btnCatalog.setOnClickListener {
+            startActivity(Intent(this, CatalogActivity::class.java))
+        }
+
         Log.d("LIFECYCLE", "onCreate appelé")
     }
 
