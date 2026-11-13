@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="MiniShopManager"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MiniShopManager">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
         <activity
-            android:name=".LoginActivity"
+            android:name="com.example.minishopmanager2.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,10 +20,18 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".MainActivity" />
-        <activity android:name=".CatalogueActivity" />
-        <activity android:name=".PanierActivity" />
-        <activity android:name=".ProfileActivity" />
+        <activity
+            android:name="com.example.minishopmanager2.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.minishopmanager2.CatalogueActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.minishopmanager2.PanierActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.minishopmanager2.ProfileActivity"
+            android:exported="false" />
 
     </application>
 </manifest>

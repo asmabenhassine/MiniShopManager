@@ -1,4 +1,4 @@
-package com.example.myapplication2
+package com.example.minishopmanager2
 
 import android.content.ContentValues
 import android.content.Context

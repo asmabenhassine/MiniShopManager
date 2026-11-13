@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.myapplication2"
+    namespace = "com.example.minishopmanager2"
     compileSdk {
         version = release(37)
     }

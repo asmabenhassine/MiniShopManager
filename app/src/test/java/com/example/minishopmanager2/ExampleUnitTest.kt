@@ -1,4 +1,4 @@
-package com.example.myapplication2
+package com.example.minishopmanager2
 
 import org.junit.Test
 

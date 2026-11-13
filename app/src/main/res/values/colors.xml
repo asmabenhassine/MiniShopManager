@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary_color">#1E3A8A</color>
-    <color name="primary_dark">#172554</color>
-    <color name="accent_color">#F97316</color>
-    <color name="bg_light">#F8FAFC</color>
+    <!-- Palette Violet Lilas Moderne -->
+    <color name="primary_color">#7C3AED</color>
+    <color name="primary_dark">#5B21B6</color>
+    <color name="accent_color">#A855F7</color>
+    <color name="lilas_pastel">#EDE9FE</color>
+    <color name="lilas_border">#DDD6FE</color>
+    <color name="bg_light">#F5F3FF</color>
     <color name="card_bg">#FFFFFF</color>
-    <color name="text_primary">#0F172A</color>
-    <color name="text_secondary">#64748B</color>
+    <color name="text_primary">#1E1B4B</color>
+    <color name="text_secondary">#6D6885</color>
     <color name="white">#FFFFFF</color>
-    <color name="success_green">#16A34A</color>
+    <color name="success_green">#10B981</color>
 </resources>

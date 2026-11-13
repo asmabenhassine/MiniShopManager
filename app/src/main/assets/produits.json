@@ -1,40 +1,52 @@
 {
   "produits": [
     {
-      "nom": "Téléphone Smartphone X",
+      "nom": "Smartphone X Pro",
       "categorie": "Électronique",
       "prix": 1250.0,
-      "icone": "ic_phone"
+      "icone": "ic_phone",
+      "description": "Écran AMOLED 6.7 pouces 120Hz, 256 Go de stockage, triple capteur photo 108 MP et batterie longue durée 5000 mAh.",
+      "imageUrl": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600"
     },
     {
       "nom": "Casque Bluetooth Pro",
-      "categorie": "Audio",
+      "categorie": "Électronique",
       "prix": 180.0,
-      "icone": "ic_headset"
+      "icone": "ic_headset",
+      "description": "Réduction de bruit active (ANC), son haute fidélité, autonomie de 35 heures et coussinets ultra-confortables.",
+      "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600"
     },
     {
-      "nom": "Montre connectée Sport",
-      "categorie": "Wearables",
-      "prix": 320.0,
-      "icone": "ic_watch"
-    },
-    {
-      "nom": "Chargeur USB-C Rapide",
+      "nom": "Montre Connectée Sport",
       "categorie": "Accessoires",
-      "prix": 45.0,
-      "icone": "ic_charger"
+      "prix": 320.0,
+      "icone": "ic_watch",
+      "description": "Suivi cardiaque 24h/24, GPS intégré, étanche 5 ATM, notifications intelligentes et 14 jours d'autonomie.",
+      "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600"
+    },
+    {
+      "nom": "Chargeur Rapide USB-C",
+      "categorie": "Accessoires",
+      "prix": 65.0,
+      "icone": "ic_charger",
+      "description": "Charge ultra-rapide 65W GaN compatible smartphone, tablette et ordinateur portable avec protection contre la surchauffe.",
+      "imageUrl": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=600"
     },
     {
       "nom": "Sac à dos Urbain",
       "categorie": "Accessoires",
-      "prix": 95.0,
-      "icone": "ic_bag"
+      "prix": 140.0,
+      "icone": "ic_bag",
+      "description": "Tissu déperlant haute résistance, compartiment rembourré pour PC 15.6 pouces et port USB externe intégré.",
+      "imageUrl": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600"
     },
     {
       "nom": "Coffret Soin Visage",
-      "categorie": "Cosmétiques",
-      "prix": 110.0,
-      "icone": "ic_cosmetics"
+      "categorie": "Beauté",
+      "prix": 95.0,
+      "icone": "ic_cosmetics",
+      "description": "Routine complète hydratante et éclat à l'acide hyaluronique et vitamine C : sérum, crème jour et contour des yeux.",
+      "imageUrl": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=600"
     }
   ]
 }

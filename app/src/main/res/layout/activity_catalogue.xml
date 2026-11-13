@@ -2,41 +2,128 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EEF2FF"
+    android:background="@color/bg_light"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="14dp">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Catalogue des Produits"
-        android:textColor="@color/primary_color"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="4dp"/>
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
 
-    <TextView
+        <Button
+            android:id="@+id/btnRetourCatalogue"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:backgroundTint="@color/lilas_pastel"
+            android:text="← Retour"
+            android:textColor="@color/primary_dark"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Catalogue Boutique"
+            android:textColor="@color/primary_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etRecherche"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@drawable/bg_card_lilas"
+        android:hint="Rechercher un produit..."
+        android:paddingHorizontal="14dp"
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_secondary"
+        android:layout_marginBottom="8dp" />
+
+    <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Appuyez sur un produit pour l'ajouter au panier"
-        android:textColor="@color/text_secondary"
-        android:textSize="13sp"
-        android:layout_marginBottom="12dp"/>
+        android:scrollbars="none"
+        android:layout_marginBottom="8dp">
 
-    <ListView
-        android:id="@+id/listViewProduits"
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/chipTous"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_badge_lilas"
+                android:paddingHorizontal="14dp"
+                android:paddingVertical="7dp"
+                android:text="Tous"
+                android:textColor="@color/primary_dark"
+                android:textStyle="bold"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/chipTech"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_badge_lilas"
+                android:paddingHorizontal="14dp"
+                android:paddingVertical="7dp"
+                android:text="Électronique"
+                android:textColor="@color/primary_dark"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/chipAccessoires"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_badge_lilas"
+                android:paddingHorizontal="14dp"
+                android:paddingVertical="7dp"
+                android:text="Accessoires"
+                android:textColor="@color/primary_dark"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/chipBeaute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_badge_lilas"
+                android:paddingHorizontal="14dp"
+                android:paddingVertical="7dp"
+                android:text="Beauté"
+                android:textColor="@color/primary_dark" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <GridView
+        android:id="@+id/gridViewProduits"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:divider="@android:color/transparent"
-        android:dividerHeight="8dp"/>
+        android:numColumns="2"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:clipToPadding="false"
+        android:paddingBottom="24dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:fadeScrollbars="false" />
 
     <Button
         android:id="@+id/btnAllerPanier"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginTop="10dp"
-        android:backgroundTint="@color/accent_color"
-        android:text="Voir le Panier"
-        android:textColor="@color/white"/>
+        android:backgroundTint="@color/primary_color"
+        android:text="Voir mon Panier"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp" />
 </LinearLayout>
