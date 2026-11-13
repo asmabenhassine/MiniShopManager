@@ -1,0 +1,40 @@
+{
+  "produits": [
+    {
+      "nom": "Téléphone Smartphone X",
+      "categorie": "Électronique",
+      "prix": 1250.0,
+      "icone": "ic_phone"
+    },
+    {
+      "nom": "Casque Bluetooth Pro",
+      "categorie": "Audio",
+      "prix": 180.0,
+      "icone": "ic_headset"
+    },
+    {
+      "nom": "Montre connectée Sport",
+      "categorie": "Wearables",
+      "prix": 320.0,
+      "icone": "ic_watch"
+    },
+    {
+      "nom": "Chargeur USB-C Rapide",
+      "categorie": "Accessoires",
+      "prix": 45.0,
+      "icone": "ic_charger"
+    },
+    {
+      "nom": "Sac à dos Urbain",
+      "categorie": "Accessoires",
+      "prix": 95.0,
+      "icone": "ic_bag"
+    },
+    {
+      "nom": "Coffret Soin Visage",
+      "categorie": "Cosmétiques",
+      "prix": 110.0,
+      "icone": "ic_cosmetics"
+    }
+  ]
+}

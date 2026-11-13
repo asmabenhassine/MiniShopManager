@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_light"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mon Panier"
+        android:textColor="@color/primary_color"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"/>
+
+    <ListView
+        android:id="@+id/listViewPanier"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/tvTotalPanier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total : 0.0 DT"
+        android:textColor="@color/text_primary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingVertical="12dp"/>
+
+    <Button
+        android:id="@+id/btnPayer"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:backgroundTint="@color/success_green"
+        android:text="Payer la commande"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnViderPanier"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:backgroundTint="#DC2626"
+        android:text="Vider le panier"
+        android:textColor="@color/white"/>
+</LinearLayout>
